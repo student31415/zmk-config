@@ -104,6 +104,11 @@
             bindings = <&tog 5>;
             key-positions = <12 23>;
         };
+
+        actuallymc {
+            bindings = <&tog 10>;
+            key-positions = <2 14 15 3>;
+        };
     };
 
     macros {
@@ -202,6 +207,24 @@
 &trans  &kp STAR      &kp PLUS      &kp UNDER     &kp LEFT_PARENTHESIS  &kp PERCENT         &kp CARET          &kp RIGHT_PARENTHESIS  &kp MINUS  &kp KP_EQUAL  &kp SINGLE_QUOTE  &trans
 &trans  &kp LEFT_GUI  &kp AT        &kp POUND     &kp LEFT_BRACE        &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp RIGHT_BRACE        &kp FSLH   &kp LT        &kp GT            &trans
                                     &trans        &trans                &trans              &trans             &trans                 &kp LCMD
+            >;
+        };
+
+        layer_9 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        layer_10 {
+            bindings = <
+&kp ESC           &kp Q               &kp W  &kp F               &kp P               &kp B          &kp J          &kp L               &kp U                   &kp Y               &kp SEMICOLON           &kp BACKSLASH
+&kp LEFT_SHIFT    &mt_index_left A A  &kp R  &mt_index_left S S  &mt_index_left T T  &kp G          &kp M          &mt_index_left N N  &mt_index_left E E      &mt_index_left I I  &mt_index_right O O     &kp RIGHT_SHIFT
+&mt LEFT_GUI TAB  &kp Z               &kp X  &kp C               &kp D               &kp V          &kp K          &kp H               &kp COMMA               &kp DOT             &mt LEFT_ALT AMPERSAND  &mt TILDE GRAVE
+                                             &kp ESCAPE          &sl 1               &lt 2 ENTER    &kp BACKSPACE  &kp SPACE           &mt LEFT_COMMAND ENTER
             >;
         };
     };
