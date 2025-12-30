@@ -106,7 +106,7 @@
         };
 
         actuallymc {
-            bindings = <&tog 10>;
+            bindings = <&to 10>;
             key-positions = <2 14 15 3>;
         };
     };
