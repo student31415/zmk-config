@@ -126,10 +126,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESC           &kp Q  &kp W                   &kp F                      &kp P                  &kp B          &kp J          &kp L                  &kp U                       &kp Y                   &kp SEMICOLON           &kp BACKSLASH
-&kp LEFT_SHIFT    &kp A  &mt_index_left LCTRL R  &mt_index_left LEFT_GUI S  &mt_index_left LALT T  &kp G          &kp M          &mt_index_left RALT N  &mt_index_left RIGHT_GUI E  &mt_index_left RCTRL I  &kp O                   &kp RIGHT_SHIFT
-&mt LEFT_GUI TAB  &kp Z  &kp X                   &kp C                      &kp D                  &kp V          &kp K          &kp H                  &kp COMMA                   &kp DOT                 &mt LEFT_ALT AMPERSAND  &mt TILDE GRAVE
-                                                 &kp ESCAPE                 &sl 1                  &lt 2 ENTER    &kp BACKSPACE  &kp SPACE              &mt LEFT_COMMAND ENTER
+&kp ESC           &kp Q                        &kp W                   &kp F                      &kp P                  &kp B          &kp J          &kp L                  &kp U                       &kp Y                   &kp SEMICOLON                  &kp BACKSLASH
+&kp LEFT_SHIFT    &mt_index_left LEFT_SHIFT A  &mt_index_left LCTRL R  &mt_index_left LEFT_GUI S  &mt_index_left LALT T  &kp G          &kp M          &mt_index_left RALT N  &mt_index_left RIGHT_GUI E  &mt_index_left RCTRL I  &mt_index_right RIGHT_SHIFT O  &kp RIGHT_SHIFT
+&mt LEFT_GUI TAB  &kp Z                        &kp X                   &kp C                      &kp D                  &kp V          &kp K          &kp H                  &kp COMMA                   &kp DOT                 &mt LEFT_ALT AMPERSAND         &mt TILDE GRAVE
+                                                                       &kp ESCAPE                 &sl 1                  &lt 2 ENTER    &kp BACKSPACE  &kp SPACE              &mt LEFT_COMMAND ENTER
             >;
         };
 
