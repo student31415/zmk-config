@@ -73,31 +73,37 @@
         lparen {
             bindings = <&kp QUESTION>;
             key-positions = <16 15>;
+            timeout-ms = <20>;
         };
 
         exclam {
             bindings = <&kp EXCLAMATION>;
             key-positions = <19 20>;
+            timeout-ms = <20>;
         };
 
         backslash {
             bindings = <&kp BACKSLASH>;
             key-positions = <16 19>;
+            timeout-ms = <20>;
         };
 
         dollar {
             bindings = <&kp DOLLAR>;
             key-positions = <15 20>;
+            timeout-ms = <20>;
         };
 
         pipe {
             bindings = <&kp PIPE>;
             key-positions = <13 22>;
+            timeout-ms = <20>;
         };
 
-        escape {
-            bindings = <&kp ESCAPE>;
-            key-positions = <40 36>;
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <40>;
+            timeout-ms = <20>;
         };
 
         minecraffft {
