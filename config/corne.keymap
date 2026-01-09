@@ -111,7 +111,7 @@
             key-positions = <12 23>;
         };
 
-        actuallymc {
+        actuallymct {
             bindings = <&to 10>;
             key-positions = <2 14 15 3>;
         };
