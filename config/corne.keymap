@@ -115,6 +115,11 @@
             bindings = <&to 10>;
             key-positions = <2 14 15 3>;
         };
+
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <15 19>;
+        };
     };
 
     macros {
