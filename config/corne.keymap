@@ -187,10 +187,10 @@
 
         minecraft {
             bindings = <
-&trans  &trans          &kp NUMBER_1  &kp W   &kp E      &trans    &trans          &trans          &trans        &trans           &trans          &trans
-&trans  &kp LEFT_SHIFT  &kp A         &kp S   &kp D      &trans    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &mmv MOVE_LEFT  &trans
-&trans  &trans          &trans        &trans  &trans     &trans    &trans          &mmv MOVE_LEFT  &trans        &trans           &trans          &sl 0
-                                      &trans  &kp SPACE  &trans    &mkp RCLK       &mkp LCLK       &trans
+&trans  &trans          &kp NUMBER_1     &kp W   &kp E            &trans             &trans          &trans          &trans           &trans           &trans          &trans
+&trans  &kp LEFT_SHIFT  &kp A            &kp S   &kp D            &kp KP_NUMBER_8    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP     &mmv MOVE_RIGHT  &mmv MOVE_LEFT  &trans
+&trans  &trans          &kp KP_NUMBER_3  &trans  &kp KP_NUMBER_9  &trans             &trans          &mmv MOVE_LEFT  &kp KP_NUMBER_2  &trans           &trans          &sl 0
+                                         &trans  &kp SPACE        &trans             &mkp RCLK       &mkp LCLK       &trans
             >;
         };
 
