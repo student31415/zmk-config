@@ -1,4 +1,5 @@
-&kscan {
+#include <boards/shields/corne/corne.dtsi>
+&kscan0 {
     row-gpios
         = <&pro_micro 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
         , <&pro_micro 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
