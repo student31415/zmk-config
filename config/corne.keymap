@@ -13,7 +13,6 @@
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1500
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 20
 
-#ifdef CONFIG_ZMK_SPLIT_ROLE_PERIPHERAL
 
 &kscan0 {
     row-gpios
@@ -23,7 +22,7 @@
         , <&pro_micro 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
         ;
 };
-#endif
+
 
 
 / {
