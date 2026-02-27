@@ -1,6 +1,6 @@
 &kscan0 {
     row-gpios
-        = <&gpio1 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   /* row0 remapped from P0.22 to P1.04 */
+        = <&pro_micro 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   /* row0 remapped from P0.22 to P1.04 */
         , <&pro_micro 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  /* row1 P0.24 */
         , <&pro_micro 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  /* row2 P1.00 */
         , <&pro_micro 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  /* row3 P0.11 */
