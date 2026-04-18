@@ -130,11 +130,18 @@
             label = "TELEPORT";
         };
 
-        meteor: meteor {
+        icesnake: meteor {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&mkp RCLK &mkp RCLK &mkp LCLK>;
             label = "METEOR";
+        };
+
+        meteor: icesnake {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mkp RCLK &mkp LCLK>;
+            label = "ICESNAKE";
         };
     };
 
