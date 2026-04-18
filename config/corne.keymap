@@ -140,8 +140,15 @@
         meteor: icesnake {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&mkp RCLK &mkp LCLK>;
+            bindings = <&mkp RCLK &mkp LCLK &mkp LCLK>;
             label = "ICESNAKE";
+        };
+
+        heal: heal {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mkp RCLK &mkp LCLK>;
+            label = "HEAL";
         };
     };
 
