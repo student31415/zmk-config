@@ -253,10 +253,10 @@
 
         layer_10 {
             bindings = <
-&trans          &kp KP_N1  &kp KP_NUMBER_2  &kp W   &kp E      &kp F              &trans          &kp KP_NUMBER_5  &kp KP_N4       &kp KP_NUMBER_6  &trans          &trans
-&kp LEFT_SHIFT  &heal      &icesnake        &kp S   &teleport  &kp KP_NUMBER_9    &mmv MOVE_LEFT  &mmv MOVE_DOWN   &mmv MOVE_UP    &mmv MOVE_RIGHT  &mmv MOVE_LEFT  &trans
-&kp T           &trans     &kp KP_NUMBER_3  &trans  &meteor    &kp KP_NUMBER_5    &trans          &mmv MOVE_LEFT   &kp N4          &kp KP_N6        &kp KP_N7       &sl 0
-                                            &trans  &kp SPACE  &trans             &mkp RCLK       &mkp LCLK        &msc SCRL_DOWN
+&trans          &kp KP_N1  &kp KP_NUMBER_2  &kp W   &kp E      &kp F                  &trans          &kp KP_NUMBER_5  &kp KP_N4       &kp KP_NUMBER_6  &trans          &trans
+&kp LEFT_SHIFT  &heal      &icesnake        &kp S   &teleport  &kp KP_NUMBER_3        &mmv MOVE_LEFT  &mmv MOVE_DOWN   &mmv MOVE_UP    &mmv MOVE_RIGHT  &mmv MOVE_LEFT  &trans
+&kp T           &trans     &kp KP_NUMBER_3  &trans  &meteor    &kp LS(KP_NUMBER_5)    &trans          &mmv MOVE_LEFT   &kp N4          &kp KP_N6        &kp KP_N7       &sl 0
+                                            &trans  &kp SPACE  &trans                 &mkp RCLK       &mkp LCLK        &msc SCRL_DOWN
             >;
         };
     };
