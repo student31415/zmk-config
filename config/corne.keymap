@@ -140,7 +140,7 @@
         meteor: icesnake {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&mkp RCLK &mkp LCLK &mkp LCLK>;
+            bindings = <&mkp RCLK &mkp LCLK &kp TILDE &mkp LCLK>;
             label = "ICESNAKE";
         };
 
