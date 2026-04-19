@@ -166,7 +166,7 @@
 &kp ESC                 &kp Q                        &kp W                   &kp F                      &kp P                  &kp B          &kp J          &kp L      &kp U                       &kp Y                   &kp SEMICOLON                  &meteor
 &kp LEFT_SHIFT          &mt_index_left LEFT_SHIFT A  &mt_index_left LCTRL R  &mt_index_left LEFT_GUI S  &mt_index_left LALT T  &kp G          &kp M          &kp N      &mt_index_left RIGHT_GUI E  &mt_index_left RCTRL I  &mt_index_right RIGHT_SHIFT O  &kp RIGHT_SHIFT
 &mt LEFT_GUI AMPERSAND  &kp Z                        &kp X                   &kp C                      &kp D                  &kp V          &kp K          &kp H      &kp COMMA                   &kp DOT                 &mt LEFT_ALT TAB               &mt TILDE GRAVE
-                                                                             &kp TAB                    &sl 10                 &lt 2 ENTER    &kp BACKSPACE  &kp SPACE  &mt LEFT_COMMAND ENTER
+                                                                             &kp TAB                    &sl 1                  &lt 2 ENTER    &kp BACKSPACE  &kp SPACE  &mt LEFT_COMMAND ENTER
             >;
         };
 
@@ -253,10 +253,10 @@
 
         layer_10 {
             bindings = <
-&trans          &kp Q   &kp KP_NUMBER_1  &kp W      &kp E            &trans             &trans          &kp KP_NUMBER_5  &kp KP_N4        &kp KP_NUMBER_6  &trans          &trans
-&kp LEFT_SHIFT  &heal   &meteor          &icesnake  &teleport        &kp KP_NUMBER_8    &mmv MOVE_LEFT  &mmv MOVE_DOWN   &mmv MOVE_UP     &mmv MOVE_RIGHT  &mmv MOVE_LEFT  &trans
-&kp T           &trans  &kp KP_NUMBER_3  &trans     &kp KP_NUMBER_9  &kp KP_NUMBER_5    &trans          &mmv MOVE_LEFT   &kp KP_NUMBER_2  &kp KP_N6        &kp KP_N7       &sl 0
-                                         &trans     &kp SPACE        &trans             &mkp RCLK       &mkp LCLK        &msc SCRL_DOWN
+&trans          &kp KP_N1  &kp KP_NUMBER_2  &kp W      &kp E            &kp F              &trans          &kp KP_NUMBER_5  &kp KP_N4        &kp KP_NUMBER_6  &trans          &trans
+&kp LEFT_SHIFT  &heal      &meteor          &icesnake  &teleport        &kp KP_NUMBER_8    &mmv MOVE_LEFT  &mmv MOVE_DOWN   &mmv MOVE_UP     &mmv MOVE_RIGHT  &mmv MOVE_LEFT  &trans
+&kp T           &trans     &kp KP_NUMBER_3  &trans     &kp KP_NUMBER_9  &kp KP_NUMBER_5    &trans          &mmv MOVE_LEFT   &kp KP_NUMBER_2  &kp KP_N6        &kp KP_N7       &sl 0
+                                            &trans     &kp SPACE        &trans             &mkp RCLK       &mkp LCLK        &msc SCRL_DOWN
             >;
         };
     };
